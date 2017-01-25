@@ -440,3 +440,13 @@ var bikeArrayClean = [
     20
   ]
 ];
+var dataFiltered=[];
+for(var i=0;i<bikeArrayClean.length;i++)
+{
+  if(bikeArrayClean[i][3]>20)
+  {dataFiltered.push[bikeArrayClean[i]]}
+}
+for (var j=0;j<dataFiltered.length;j++)
+{
+    L.marker(dataFiltered[j]).bindPopup(dataFiltered[j][2]).addTo(map);
+}

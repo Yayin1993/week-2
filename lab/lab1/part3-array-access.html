@@ -74,10 +74,12 @@
     Start code
 
     ===================== */
+    var restaurantData=[[39.949633, -75.167674,"Real Food Eatery"],[39.949487, -75.146842,"Buddakan"],[39.950505, -75.169290,"Luke's Lobster"]];
+    for (i=0;i<=2;i++)
+{
+    L.marker(restaurantData[i]).bindPopup(restaurantData[i][2]).addTo(map);
+}
 
-    L.marker([0, 0]).addTo(map);
-    L.marker([0, 0]).addTo(map);
-    L.marker([0, 0]).addTo(map);
 
     /* =====================
 

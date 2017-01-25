@@ -5,7 +5,25 @@
   <body>
 
     <script>
-
+    for (var i=1;i<=100;i++)
+    {
+      if ((i%3==0)&&(i%5!=0))
+      {
+      console.log("Fizz");
+      }
+      else if((i%5==0)&&(i%3!=0))
+      {
+      console.log("Buzz");
+      }
+      else if(i%5==0 && i%3==0)
+      {
+      console.log("FizzBuzz");
+      }
+      else
+      {
+      console.log(i);
+      }
+    }
     /* =====================
 
     # Lab 1, Part 2 — FizzBuzz
@@ -19,22 +37,26 @@
 
     Believe it or not, this is a common programming challenge in job interviews.
 
-    ===================== */
-
-    /* =====================
-
-    Start code
-
-    ===================== */
-
-
-
-    /* =====================
-
-    End code
-
-    ===================== */
-
+For (var i=1;i<=100;i++)
+{
+if ((i%3==0)&&(i%5!=0))
+{
+console.log("Fizz");
+}
+else if((i%5==0)&&(i%3!=0))
+{
+console.log("Buzz");
+}
+else if(i%15==0)
+{
+console.log("FizzBuzz");
+}
+else
+{
+console.log(i);
+}
+};
+    =====================*/
     </script>
   </body>
 </html>
